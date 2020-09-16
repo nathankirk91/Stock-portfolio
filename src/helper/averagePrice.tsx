@@ -1,1 +1,0 @@
-const averagePrice: {averagePrice: flo, stock: string} =

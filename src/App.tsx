@@ -1,7 +1,12 @@
 import * as React from "react";
 import "./styles.css";
 
+import currentPostion from "./helper/currentPostion";
+import compoundInterest from "./helper/compoundInterest";
+import stockABC, { currentPrice } from "./data/stockABC";
+
 export default function App() {
+  console.log(compoundInterest(currentPostion(stockABC), currentPrice));
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
